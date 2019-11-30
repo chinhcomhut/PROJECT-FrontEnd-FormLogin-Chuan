@@ -13,6 +13,12 @@ import { AdminComponent } from './admin/admin.component';
 import { PmComponent } from './pm/pm.component';
 
 import { httpInterceptorProviders } from './auth/auth-interceptor';
+import { BooksComponent } from './components/books/books.component';
+import { BookAddComponent } from './components/books/book-add/book-add.component';
+import { BookEditComponent } from './components/books/book-edit/book-edit.component';
+import { BookListComponent } from './components/books/book-list/book-list.component';
+import { ViewbookComponent } from './viewbook/viewbook.component';
+import { BookViewComponent } from './components/books/book-view/book-view.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +28,13 @@ import { httpInterceptorProviders } from './auth/auth-interceptor';
     RegisterComponent,
     HomeComponent,
     AdminComponent,
-    PmComponent
+    PmComponent,
+    BooksComponent,
+    BookAddComponent,
+    BookEditComponent,
+    BookListComponent,
+    ViewbookComponent,
+    BookViewComponent
   ],
   imports: [
     BrowserModule,
